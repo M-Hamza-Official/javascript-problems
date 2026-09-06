@@ -6,7 +6,7 @@ if (n == null) {
     console.log("Please enter a valid number");
   } else {
     if (n > 0) {
-     isPrime(n)
+     console.log(isPrime(n))
     }else{
       console.log('number should be positive and more than 0');
       
@@ -15,5 +15,11 @@ if (n == null) {
 }
 function isPrime(n){
 if (n ===1) return false;
-if (n===2) return 
+if (n===2) return true
+if(n%2==0) return false
+for (let i = 3; i < Math.sqrt(n); i+=2) {
+if(n%i == 0) return false  
+
+}
+return true
 }

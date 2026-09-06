@@ -1,3 +1,6 @@
+
+
+
 // let a = 10;
 // let b = 20;
 /*
@@ -18,9 +21,9 @@ a = b;
 b = c;
 console.log("a is ", a, " b is ", b);
 */
-let a=11; 
-let b=22;
-let c = a+b + a++ + b++ + ++a + ++b
+// let a=11; 
+// let b=22;
+// let c = a+b + a++ + b++ + ++a + ++b
 
 // 33
 // 11
@@ -31,5 +34,5 @@ let c = a+b + a++ + b++ + ++a + ++b
 // 79
 // 24
 // 103
-console.log(c);
-console.log(Math.cbrt(9));
+// console.log(c);
+// console.log(Math.cbrt(9));
